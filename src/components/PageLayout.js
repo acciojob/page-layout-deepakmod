@@ -5,8 +5,8 @@ function PageLayout({header,footer,children}){
     return(
         <div>
             <header><h1> {header} </h1></header>
-            <h3> {children} </h3>
-            <footer><h3> &#169; {footer} </h3></footer>
+            <p> {children} </p>
+            <footer><p> &#169; {footer} </p></footer>
         </div>
     )
 }
